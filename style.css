@@ -11,8 +11,7 @@ header {
     color: rgb(246, 245, 243);
     padding: 20px;
     text-align: center;
-    border-radius: 100%;
-    box-shadow: #ababab 10px 8px 0;
+    margin-top: 10px;
 }
 
 section {
@@ -36,6 +35,76 @@ footer {
     text-align: center;
     background-color: rgb(57, 188, 188);
     padding: 20px;
-    border-radius: 100%;
-    box-shadow: #ababab 10px 8px 0;
 }
+
+.social-links {
+    margin-top:10px ;
+}
+
+.social-links > a {
+    margin: 0 10px;
+    color: #706b6b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links > a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color: #439fc0;
+}
+
+/* Project list */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: rgb(228, 219, 153);
+    border-left: 4px solid #67bd45;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 5px 2px 0 rgb(157, 157, 157);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+
+}
+.project-card {
+    background-color: rgb(228, 219, 153);
+    border-left: 4px solid #67bd45;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.project-card:hover {
+transform: translatex(-5px);
+}
+
+.project-card > h3 {
+    margin-top: 0;
+    color: #67bd45;
+}
+
+.project-card > a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #c9c5c5;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card > a:hover {
+    background-color: #333;
+}
+
