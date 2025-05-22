@@ -16,7 +16,7 @@ header {
 
 section {
     padding: 20px;
-    margin: 10px auto;
+    margin: 20px ;
     max-width: 600px;
     background-color: rgb(217, 217, 217);
     border-radius: 15px;
@@ -65,26 +65,14 @@ footer {
 .project-card {
     background-color: rgb(228, 219, 153);
     border-left: 4px solid #67bd45;
-    padding: 15px;
+    margin-bottom: 50px;
     border-radius: 8px;
     width: 300px;
     box-shadow: 5px 2px 0 rgb(157, 157, 157);
-    transition: transform 0.2s;
 }
 
 .project-card:hover {
-
-}
-.project-card {
-    background-color: rgb(228, 219, 153);
-    border-left: 4px solid #67bd45;
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;
-}
-
-.project-card:hover {
-transform: translatex(-5px);
+transform: translateY(-15px);
 }
 
 .project-card > h3 {
